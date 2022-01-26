@@ -1,8 +1,8 @@
 import './Hotels.scss'
 
-export default function Hotel () {
+export default function Hotels () {
   return ( 
-    <div className="Hotel">
+    <div id="Hotels">
       <p>Hotels</p>
     </div>
    )

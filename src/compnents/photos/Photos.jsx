@@ -2,7 +2,7 @@ import './Photos.scss'
 
 export default function Photos () {
   return ( 
-    <div className="Photos">
+    <div id="Photos">
       <p>Photos</p>
     </div>
    )

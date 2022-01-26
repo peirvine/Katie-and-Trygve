@@ -2,7 +2,7 @@ import './Location.scss'
 
 export default function Location () {
   return ( 
-    <div className="Location">
+    <div id="Location">
       <p>Location</p>
     </div>
    )

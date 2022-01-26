@@ -2,7 +2,7 @@ import './Registry.scss'
 
 export default function Registry () {
   return ( 
-    <div className="Registry">
+    <div id="Registry">
       <p>Registry</p>
     </div>
    )

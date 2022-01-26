@@ -1,6 +1,31 @@
 // Desktop
 @media (min-width: 1000px) {
+  #Header {
+    text-align: center;
+    h1 {
+      padding-top: 230px;
+      line-height: 1;
+      margin: 16px 0;
+      font-family: Playfair Display SC;
+      color: #404041;
+      font-size: 60px;
+      font-weight: normal;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      padding-bottom: 30px;
+    }
 
+    h2 {
+      line-height: 1;
+      margin: 8px 0;
+      font-family: Quicksand;
+      letter-spacing: 3px;
+      color: #404041;
+      font-size: 20px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+  }
 
 }
 
