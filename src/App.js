@@ -1,3 +1,9 @@
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom"
+
 import './App.scss';
 
 import Header from './compnents/header/Header'
@@ -15,15 +21,19 @@ import Footer from './compnents/footer/Footer'
 function App() {
   return (
     <div id="site">
-      <Header />
-      <Nav />
-      <Story />
-      <Hotels />
-      <Location />
-      <WeddingParty />
-      <Photos />
-      <Registry />
-      <Footer />
+      <Router>
+        <Header />
+        <Nav />
+        <Routes>
+          <Route path="/our-story" element={<Story />} />
+          <Route path="/accommodations" element={<Hotels />} />
+          <Route path="/location" element={<Location />} />
+          <Route path="/wedding-party" element={<WeddingParty />} />
+          <Route path="/photos" element={<Photos />} />
+          <Route path="/registry" element={<Registry />} />
+        </Routes>
+        <Footer />
+      </Router>
     </div>
   );
 }

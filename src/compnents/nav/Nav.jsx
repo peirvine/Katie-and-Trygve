@@ -16,16 +16,25 @@ export default function Nav() {
       <nav>
         <ul>
           <li>
-            <NavLink exact to="/" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>home</NavLink>
+            <NavLink exact to="/" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Home</NavLink>
           </li>
           <li>
-            <NavLink exact to="/about" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>about</NavLink>
+            <NavLink exact to="/our-story" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Our Story</NavLink>
           </li>
           <li>
-            <NavLink exact to="/gallery" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>gallery</NavLink>
+            <NavLink exact to="/accommodations" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Accomodations</NavLink>
           </li>
           <li>
-            <NavLink exact to="/contact" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>contact</NavLink>
+            <NavLink exact to="/location" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Location</NavLink>
+          </li>
+          <li>
+            <NavLink exact to="/wedding-party" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Wedding Party</NavLink>
+          </li>
+          <li>
+            <NavLink exact to="/photos" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Photos</NavLink>
+          </li>
+          <li>
+            <NavLink exact to="/registry" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Registry</NavLink>
           </li>
         </ul>
         

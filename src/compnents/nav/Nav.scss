@@ -5,18 +5,6 @@
     width: 100%;
     position: relative;
 
-    nav:before {
-      content: '';
-      position: absolute;
-      top: 46%;
-      left: 0;
-      border-top: 2.5px solid black;
-      background: black;
-      width: 100%;
-      transform: translateY(-46%);
-      z-index: -10;
-    }
-
     nav {
       display: flex;
       justify-content: space-between;
@@ -31,54 +19,38 @@
           padding: 15px;
           a {
             color: black;
-            background-color: white;
             padding: 5px;
             font-size: 20pt;
             text-decoration: none;
           }
         }
 
-        li:nth-child(2) {
-          margin-right: 125px;
-          margin-left: 30px;
-        }
-
-        li:nth-child(4) {
-          margin-right: 30px;
-          margin-left: 125px;
-        }
-      }
-      img {
-        height: 15rem;
-        background-color: white;
-      }
-
-      h1 {
-        opacity: 0;
-        display: inline;
-        top: 0;
-        -webkit-transition: opacity 1s ease-in-out;
-        -moz-transition: opacity 1s ease-in-out;
-        -o-transition: opacity 1s ease-in-out;
-        transition: opacity 1s ease-in-out;
-        .transparent {
-          top: 0;
+        h1 {
+          opacity: 0;
           display: inline;
-          opacity: 1;
-        } 
+          top: 0;
+          -webkit-transition: opacity 1s ease-in-out;
+          -moz-transition: opacity 1s ease-in-out;
+          -o-transition: opacity 1s ease-in-out;
+          transition: opacity 1s ease-in-out;
+          .transparent {
+            top: 0;
+            display: inline;
+            opacity: 1;
+          } 
+        }
       }
-    }
-    #mobileNavButton, .buttonContainer, .buttonContainer .change, #logo {
-      display: none;
-    }
+      #mobileNavButton, .buttonContainer, .buttonContainer .change, #logo {
+        display: none;
+      }
 
-    .selected {
-      background-color: black;
-      color: white;
-      padding: 3px 5px;
+      .selected {
+        background-color: black;
+        color: white;
+        padding: 3px 5px;
+      }
     }
   }
-
 }
 
 
