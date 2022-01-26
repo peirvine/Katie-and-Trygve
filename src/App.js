@@ -8,6 +8,7 @@ import './App.scss';
 
 import Header from './compnents/header/Header'
 import Nav from './compnents/nav/Nav'
+import Home from './compnents/home/Home'
 import Story from './compnents/ourStory/Story'
 import Hotels from './compnents/hotels/Hotels'
 import Location from './compnents/location/Location'
@@ -25,6 +26,7 @@ function App() {
         <Header />
         <Nav />
         <Routes>
+          <Route path="*" element={<Home />} />
           <Route path="/our-story" element={<Story />} />
           <Route path="/accommodations" element={<Hotels />} />
           <Route path="/location" element={<Location />} />

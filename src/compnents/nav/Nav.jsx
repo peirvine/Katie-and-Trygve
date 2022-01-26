@@ -16,25 +16,25 @@ export default function Nav() {
       <nav>
         <ul>
           <li>
-            <NavLink exact to="/" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Home</NavLink>
+            <NavLink exact to="/" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Home</NavLink>
           </li>
           <li>
-            <NavLink exact to="/our-story" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Our Story</NavLink>
+            <NavLink exact to="/our-story" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Our Story</NavLink>
           </li>
           <li>
-            <NavLink exact to="/accommodations" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Accomodations</NavLink>
+            <NavLink exact to="/accommodations" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Accomodations</NavLink>
           </li>
           <li>
-            <NavLink exact to="/location" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Location</NavLink>
+            <NavLink exact to="/location" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Location</NavLink>
           </li>
           <li>
-            <NavLink exact to="/wedding-party" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Wedding Party</NavLink>
+            <NavLink exact to="/wedding-party" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Wedding Party</NavLink>
           </li>
           <li>
-            <NavLink exact to="/photos" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Photos</NavLink>
+            <NavLink exact to="/photos"  className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Photos</NavLink>
           </li>
           <li>
-            <NavLink exact to="/registry" activeClassName="selected" onClick={() => setNavOpen(!navOpen)}>Registry</NavLink>
+            <NavLink exact to="/registry" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Registry</NavLink>
           </li>
         </ul>
         

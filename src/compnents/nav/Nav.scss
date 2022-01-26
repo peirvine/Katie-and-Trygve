@@ -4,6 +4,7 @@
     text-align: center;
     width: 100%;
     position: relative;
+    margin-top: 25px;
 
     nav {
       display: flex;
@@ -18,10 +19,22 @@
           display: inline;
           padding: 15px;
           a {
-            color: black;
-            padding: 5px;
-            font-size: 20pt;
+            font-family: Quicksand;
+            color: #404041;
+            font-size: 16px;
+            font-weight: 400;
+            border-bottom: 2px solid transparent;
+            letter-spacing: 2px;
+            line-height: 1;
+            margin: 0 auto;
+            padding: 8px 8px 6px;
+            -webkit-text-decoration: none;
             text-decoration: none;
+            -webkit-transition: all 0.25s;
+            transition: all 0.25s;
+            width: -webkit-fit-content;
+            width: -moz-fit-content;
+            width: fit-content;
           }
         }
 
@@ -44,10 +57,8 @@
         display: none;
       }
 
-      .selected {
-        background-color: black;
-        color: white;
-        padding: 3px 5px;
+      .active {
+        border-bottom: 2px solid #404041;
       }
     }
   }
