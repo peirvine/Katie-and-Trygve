@@ -1,7 +1,29 @@
 // Desktop
 @media (min-width: 1000px) {
+  #Home {
+    text-align: center;
+    img {
+      width: 80%;
+    }
 
+    h2 {
+      line-height: 1;
+      margin: 32px 0 8px 0;
+      font-family: Quicksand;
+      font-size: 32px;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
 
+    h3 {
+      margin: 8px 0;
+      font-family: Quicksand;
+      letter-spacing: 3px;
+      font-size: 24px;
+      font-weight: normal;
+      text-transform: uppercase;
+    }
+  }
 }
 
 

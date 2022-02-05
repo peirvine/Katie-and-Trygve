@@ -18,24 +18,24 @@ export default function Nav() {
           <li>
             <NavLink exact to="/" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Home</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink exact to="/our-story" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Our Story</NavLink>
-          </li>
+          </li> */}
           <li>
             <NavLink exact to="/accommodations" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Accomodations</NavLink>
           </li>
           <li>
             <NavLink exact to="/location" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Location</NavLink>
           </li>
-          <li>
+          {/* <li>
             <NavLink exact to="/wedding-party" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Wedding Party</NavLink>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <NavLink exact to="/photos"  className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Photos</NavLink>
-          </li>
-          <li>
+          </li> */}
+          {/* <li>
             <NavLink exact to="/registry" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Registry</NavLink>
-          </li>
+          </li> */}
         </ul>
         
       </nav>

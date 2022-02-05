@@ -12,9 +12,9 @@ export default function Header () {
 
   return ( 
     <div id="Header">
-      <h1>Katie & Trygve</h1>
+      <h1>Katie + Trygve</h1>
       <h2>JUNE 25, 2022 • DELLWOOD, MN</h2>
-      <h2>{days.toFixed()} DAYS TO GO!</h2>
+      {/* <h2>{days.toFixed()} DAYS TO GO!</h2> */}
     </div>
    )
 }

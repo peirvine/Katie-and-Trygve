@@ -25,15 +25,17 @@ function App() {
       <Router>
         <Header />
         <Nav />
-        <Routes>
-          <Route path="*" element={<Home />} />
-          <Route path="/our-story" element={<Story />} />
-          <Route path="/accommodations" element={<Hotels />} />
-          <Route path="/location" element={<Location />} />
-          <Route path="/wedding-party" element={<WeddingParty />} />
-          <Route path="/photos" element={<Photos />} />
-          <Route path="/registry" element={<Registry />} />
-        </Routes>
+        <div id="wrapper">
+          <Routes>
+            <Route path="*" element={<Home />} />
+            <Route path="/our-story" element={<Story />} />
+            <Route path="/accommodations" element={<Hotels />} />
+            <Route path="/location" element={<Location />} />
+            <Route path="/wedding-party" element={<WeddingParty />} />
+            <Route path="/photos" element={<Photos />} />
+            <Route path="/registry" element={<Registry />} />
+          </Routes>
+        </div>
         <Footer />
       </Router>
     </div>
