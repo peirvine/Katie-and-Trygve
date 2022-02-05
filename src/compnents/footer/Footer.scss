@@ -45,12 +45,56 @@
       }
     }
   }
-
 }
 
 
 // Mobile
 @media (max-width: 1000px) {
+  #Footer {
+    padding-top: 52px;
+    padding-bottom: 52px;
+    text-align: center;
+    width: 100%;
+
+    #logo {
+      width: 172px;
+      margin-right: auto;
+      margin-left: auto;
+      h2 {
+        padding: 0 18px 16px;
+        font-size: 50px;
+        font-weight: normal;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+        margin-bottom: 0;
+      }
+
+      h3 {
+        padding: 20px 18px 0;
+        letter-spacing: 3px;
+        font-size: 15px;
+        font-weight: 400;
+        text-transform: uppercase;
+        border-top: 1px solid rgb(64, 113, 128);
+        margin-top: 0;
+      }
+    }
+
+    #copy {
+      height: 50px;
+      line-height: 1.75;
+      letter-spacing: 0px;
+      font-size: 12px;
+      font-weight: 400;
+      margin: 12px 0;
+
+      a {
+        color: rgb(64, 113, 128);
+        text-decoration: none;
+        font-weight: bold;
+      }
+    }
+  }
 
 
 

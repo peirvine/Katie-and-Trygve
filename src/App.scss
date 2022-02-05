@@ -38,7 +38,19 @@
 
 // Mobile
 @media (max-width: 1000px) {
-  #wrapper {
-    padding: 15px;
+  body {
+    margin: 0;
+    
+    #wrapper {
+      padding: 15px;
+    }
+
+    h1 {
+      font-family: "Claudy";
+    }
+  
+    h2 {
+      font-family: "Eaves";
+    }
   }
 }

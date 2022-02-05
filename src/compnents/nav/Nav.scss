@@ -69,8 +69,8 @@
 @media only screen and (max-width: 1000px) {
   #nav {
     width: 100%;
-    min-height: 60px;
-    border-bottom: 2px solid black;
+    min-height: 50px;
+    border-bottom: 2px solid rgb(87, 154, 173);
     text-align: right;
     padding-right: 10px;
     padding-top: 10px;
@@ -88,6 +88,7 @@
     .buttonContainer {
       display: inline-block;
       cursor: pointer;
+      margin-right: 10px;
     }
     
     .bar1, .bar2, .bar3 {

@@ -23,12 +23,15 @@
     }
   }
 
+  #mobileHeader {
+    display: none;
+  }
 }
 
 
 // Mobile
 @media (max-width: 1000px) {
-
-
-
+  #Header {
+    display: none;
+  }
 }
