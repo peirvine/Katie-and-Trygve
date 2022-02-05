@@ -2,7 +2,7 @@ import './Story.scss'
 
 export default function Story () {
   return ( 
-    <div className="Story">
+    <div id="Story">
       <p>Story</p>
     </div>
    )

@@ -1,13 +1,37 @@
 // Desktop
 @media (min-width: 1000px) {
+  #Header {
+    text-align: center;
+    padding-bottom: 10px;
+  
+    h1 {
+      padding-top: 230px;
+      line-height: 1;
+      margin: 16px 0;
+      font-size: 175pt;
+      font-weight: normal;
+      letter-spacing: 4px;
+      padding-bottom: 30px;
+    }
 
+    h2 {
+      line-height: 1;
+      margin: 8px 0;
+      letter-spacing: 3px;
+      font-size: 20px;
+      font-weight: 400;
+    }
+  }
 
+  #mobileHeader {
+    display: none;
+  }
 }
 
 
 // Mobile
 @media (max-width: 1000px) {
-
-
-
+  #Header {
+    display: none;
+  }
 }

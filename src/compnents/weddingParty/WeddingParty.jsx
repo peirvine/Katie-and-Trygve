@@ -2,7 +2,7 @@ import './WeddingParty.scss'
 
 export default function WeddingParty () {
   return ( 
-    <div className="WeddingParty">
+    <div id="WeddingParty">
       <p>WeddingParty</p>
     </div>
    )

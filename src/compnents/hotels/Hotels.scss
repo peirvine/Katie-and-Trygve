@@ -1,6 +1,74 @@
 // Desktop
 @media (min-width: 1000px) {
+  #Hotels {
+    h2 {
+      font-family: "Claudy";
+      font-size: 120pt;
+      text-align: center;
+      font-weight: normal;
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
 
+    #hotelText {
+      text-align: center;
+      width: 60%;
+      margin-right: auto;
+      margin-left: auto;
+      font-size: 18pt;
+      font-family: "Eaves";
+    }
+
+    .listing {
+      text-align: center;
+      width: 40%;
+      margin-right: auto;
+      margin-left: auto;
+
+      h3 {
+        font-weight: normal;
+        font-size: 32px;
+        margin-bottom: 5px;
+      }
+
+      h4 {
+        font-weight: normal;
+        margin-bottom: 0px;
+        margin-top: 5px;
+        font-size: 20px;
+      }
+
+      p {
+        line-height: 1.75;
+      }
+
+      .button {
+        line-height: 1.25;
+        -webkit-box-align: center;
+        align-items: center;
+        border-radius: 2px;
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-pack: center;
+        justify-content: center;
+        margin: 0px 10px;
+        padding: 13px 36px;
+        text-decoration: none;
+        transition: all 0.25s ease 0s;
+        font-family: Quicksand;
+        font-size: 16px;
+        background-color: rgb(152, 103, 58);
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-weight: 600;
+        width: 80px;
+        margin-right: auto;
+        margin-left: auto;
+      }
+    }
+  }
 
 }
 

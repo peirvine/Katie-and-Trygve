@@ -1,13 +1,56 @@
+@font-face{
+  font-family: "Eaves";
+  src: local('Eaves'), url("./fonts/MrsEavesRoman.ttf") format('truetype');
+}
+
+@font-face{
+  font-family: "Claudy";
+  src: local('Claudy'), url("./fonts/MsClaudy-Regular.otf") format('truetype');
+}
+
+@font-face{
+  font-family: "Quicksand";
+  src: local('Quicksand'), url("./fonts/Quicksand-VariableFont_wght.ttf") format('truetype');
+}
+
+* {
+  color: rgb(87, 154, 173)
+}
+
 // Desktop
 @media (min-width: 1000px) {
+  #wrapper {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 20px;
+  }
+  
+  h1 {
+    font-family: "Claudy";
+  }
 
-
+  h2 {
+    font-family: "Eaves";
+  }
 }
 
 
 // Mobile
 @media (max-width: 1000px) {
+  body {
+    margin: 0;
+    
+    #wrapper {
+      padding: 15px;
+    }
 
-
-
+    h1 {
+      font-family: "Claudy";
+    }
+  
+    h2 {
+      font-family: "Eaves";
+    }
+  }
 }
