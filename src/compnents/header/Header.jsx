@@ -10,8 +10,9 @@ const getDays = () => {
 export default function Header () {
   const days = getDays()
 
-  return ( 
+  return (
     <div id="Header">
+      <a id="header" />
       <h1>Katie + Trygve</h1>
       <h2>JUNE 25, 2022 • DELLWOOD, MN</h2>
       {/* <h2>{days.toFixed()} DAYS TO GO!</h2> */}

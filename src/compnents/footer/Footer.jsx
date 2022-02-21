@@ -1,10 +1,12 @@
 import './Footer.scss'
 
+import logo from '../../images/Website Logo.png'
+
 export default function Footer () {
-  return ( 
+  return (
     <div id="Footer">
       <div id="logo">
-        <h2>K&T</h2>
+        <img src={logo} alt="footerlogo" />
         <h3>6.25.2022</h3>
       </div>
       <div id="copy">

@@ -26,6 +26,7 @@ function App() {
         <Header />
         <Nav />
         <div id="wrapper">
+          {/*
           <Routes>
             <Route path="*" element={<Home />} />
             <Route path="/our-story" element={<Story />} />
@@ -35,6 +36,10 @@ function App() {
             <Route path="/photos" element={<Photos />} />
             <Route path="/registry" element={<Registry />} />
           </Routes>
+          */}
+          <Home />
+          <Hotels />
+          <Location />
         </div>
         <Footer />
       </Router>
