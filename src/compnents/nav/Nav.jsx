@@ -77,6 +77,21 @@ export default function Nav() {
               Location
             </Link>
           </li>
+          <li>
+            {/* <NavLink exact to="#location" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Location</NavLink> */}
+            <Link
+              activeClass="active"
+              to="faq"
+              spy={true}
+              hashSpy={true}
+              smooth={true}
+              offset={-70}
+              duration={500}
+              onClick={() => setNavOpen(false)}
+            >
+              Q & A
+            </Link>
+          </li>
           {/* <li>
             <NavLink exact to="/wedding-party" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Wedding Party</NavLink>
           </li> */}

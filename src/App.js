@@ -12,6 +12,7 @@ import Home from './compnents/home/Home'
 import Story from './compnents/ourStory/Story'
 import Hotels from './compnents/hotels/Hotels'
 import Location from './compnents/location/Location'
+import Faq from './compnents/faq/Faq'
 import WeddingParty from './compnents/weddingParty/WeddingParty'
 import Photos from './compnents/photos/Photos'
 import Registry from './compnents/registry/Registry'
@@ -40,6 +41,7 @@ function App() {
           <Home />
           <Hotels />
           <Location />
+          <Faq />
         </div>
         <Footer />
       </Router>
