@@ -92,6 +92,10 @@ export default function Nav() {
               Q & A
             </Link>
           </li>
+          <li>
+            {/* <NavLink exact to="#location" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Location</NavLink> */}
+            <a href="https://katieandtrygve.anrsvp.com/#home" target="_BLANK" rel="noreferrer" onClick={() => setNavOpen(false)}>RSVP</a>
+          </li>
           {/* <li>
             <NavLink exact to="/wedding-party" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Wedding Party</NavLink>
           </li> */}

@@ -1,5 +1,9 @@
 export const questions = [
   {
+    question: 'WHAT IS THE SCHEDULE?',
+    answer: 'Ceremony begins at 4:30pm, followed by cocktail hour, and reception at 6:00pm',
+  },
+  {
     question: 'WHAT IS THE DRESS CODE?',
     answer: 'Dress code is semi-formal.',
   },
@@ -13,6 +17,6 @@ export const questions = [
   },
   {
     question: 'HOW DO I RSVP?',
-    answer: 'RSVP will not be available until after invitations are sent out. Once you receive your invitation, please click the RSVP button on the home page of our wedding website to RSVP.',
+    answer: 'Please click the RSVP button on the home page of our wedding website to RSVP.',
   }
 ]
