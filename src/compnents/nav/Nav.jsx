@@ -93,7 +93,9 @@ export default function Nav() {
             </Link>
           </li>
           <li>
-            {/* <NavLink exact to="#location" className={(navData) => navData.isActive ? "active" : "" } onClick={() => setNavOpen(!navOpen)}>Location</NavLink> */}
+            <a href="https://www.myregistry.com/wedding-registry/trygve-eggen-and-katie-riedel-shoreview-mn/3266704/giftlist" target="_BLANK" rel="noreferrer" onClick={() => setNavOpen(false)}>Registry</a>
+          </li>
+          <li>
             <a href="https://katieandtrygve.anrsvp.com/#home" target="_BLANK" rel="noreferrer" onClick={() => setNavOpen(false)}>RSVP</a>
           </li>
           {/* <li>
