@@ -28,7 +28,7 @@
           display: inline;
           padding: 15px;
           a {
-            font-family: "Eaves";
+            font-family: "Baskerville", "Eaves";
             font-size: 22px;
             font-weight: 400;
             border-bottom: 2px solid transparent;
@@ -83,7 +83,6 @@
     min-height: 50px;
     border-bottom: 2px solid rgb(87, 154, 173);
     text-align: right;
-    padding-right: 10px;
     padding-top: 10px;
     position: sticky;
     top: 0;
@@ -141,6 +140,7 @@
           padding-bottom: 10px;
           padding-right: 6px;
           font-size: 1.5em;
+          font-family: "Baskerville",
         }
       }
     }
